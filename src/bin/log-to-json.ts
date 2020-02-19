@@ -15,7 +15,10 @@ program
   .description('An easy CLI tool to convert .log files to .json')
   .arguments('<input-log-file>')
   .action(handle)
-  .option('-o, --output <file>', 'Relative or absolute file path');
+  .option(
+    '-o, --output <file>',
+    'Relative or absolute file path. If not provided, a new JSON file with similar name is created.'
+  );
 
 program.parse(process.argv);
 
