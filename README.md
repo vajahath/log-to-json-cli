@@ -21,7 +21,7 @@ Type definitions are bundled with this package, just in case you need.
 ## CLI Usage
 
 ```bash
-➜  gith log-to-json --help
+➜ log-to-json --help
 Usage: log-to-json [options] <input-log-file>
 
 An easy CLI tool to convert .log files to .json
